@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Risiko-Übersicht</title>
+</head>
+<body>
+<h1>Risiko-Ergebnisse</h1>
+<table border="1">
+    <tr>
+        <th>Name</th>
+        <th>Level</th>
+        <th>Empfehlung</th>
+    </tr>
+    <tr th:each="risk : ${risks}">
+        <td th:text="${risk.name}"></td>
+        <td th:text="${risk.riskLevel}"></td>
+        <td th:text="${risk.recommendation}"></td>
+    </tr>
+</table>
+<a href="/risk">Neues Risiko bewerten</a>
+</body>
+</html>

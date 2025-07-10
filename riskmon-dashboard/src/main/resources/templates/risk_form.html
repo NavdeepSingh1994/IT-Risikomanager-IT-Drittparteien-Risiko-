@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Risikoformular</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        h1 {
+            color: #333;
+        }
+        form {
+            border: 1px solid #ccc;
+            padding: 20px;
+            max-width: 400px;
+            background: #f9f9f9;
+            border-radius: 8px;
+        }
+        input[type="text"], input[type="checkbox"] {
+            margin: 5px 0 15px 0;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        button {
+            padding: 8px 16px;
+            background-color: #0275d8;
+            border: none;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #025aa5;
+        }
+    </style>
+</head>
+<body>
+<h1>Risiko-Eingabe</h1>
+<form action="#" th:action="@{/risk}" th:object="${risk}" method="post">
+    <label>Name:
+        <input type="text" th:field="*{name}" />
+    </label>
+    <label><input type="checkbox" th:field="*{mfaImplemented}" /> MFA implementiert</label>
+    <label><input type="checkbox" th:field="*{loggingEnabled}" /> Logging aktiv</label>
+    <label><input type="checkbox" th:field="*{thirdPartyContract}" /> Drittparteienvertrag</label>
+    <label><input type="checkbox" th:field="*{isoCompliant}" /> ISO 27001 konform</label>
+    <button type="submit">Auswerten</button>
+</form>
+</body>
+</html>
