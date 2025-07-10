@@ -20,7 +20,7 @@ Ein einfaches, aber praxisnahes Spring-Boot-Dashboard zur Risikobewertung gemä�
 
 ---
 
-## 🖼️ Beispiel: Risikoanalyse
+## Beispiel: Risikoanalyse
 
 **Input:**
 - Name: `Externer Videodienst`
@@ -35,7 +35,7 @@ Ein einfaches, aber praxisnahes Spring-Boot-Dashboard zur Risikobewertung gemä�
 
 ---
 
-## ⚙Technologien
+## Technologien
 
 | Komponente       | Tech                                |
 |------------------|-------------------------------------|
