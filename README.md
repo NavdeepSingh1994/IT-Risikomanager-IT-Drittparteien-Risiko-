@@ -35,7 +35,7 @@ Ein einfaches, aber praxisnahes Spring-Boot-Dashboard zur Risikobewertung gemä�
 
 ---
 
-## ⚙️ Technologien
+## ⚙Technologien
 
 | Komponente       | Tech                                |
 |------------------|-------------------------------------|
