@@ -94,7 +94,7 @@ Ich bin bereit, Verantwortung zu übernehmen und die Weiterentwicklung des IT-Ri
   
 # Persönliche Weiterentwicklung<br/>
 
-  Master in AI ab 2028 auf der FH Technikum Wien, Donnerstag und Freitag am Abend vor Ort<br/>
+  Master in AI ab 2028 auf der FH Technikum Wien, Donnerstag und Freitag am Abend vor Ort, Uhrzeit: 18:00 - 21:00<br/>
   PMA Level C Zertifikat ab 2026<br/>
   
 # Private Interessen<br/>
