@@ -24,10 +24,10 @@ Ein einfaches, aber praxisnahes Spring-Boot-Dashboard zur Risikobewertung gemä�
 
 **Input:**
 - Name: `Externer Videodienst`
-- MFA: ❌
-- Logging: ✅
-- Vertrag: ❌
-- ISO: ❌
+- MFA: Nein
+- Logging: Ja
+- Vertrag: Nein
+- ISO: Nein
 
 **Ausgabe:**
 - Risikolevel: **Hoch**
